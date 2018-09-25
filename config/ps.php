@@ -1,0 +1,31 @@
+<?php
+        $ps = array();   
+        $ps["ik_shop_id"] = "";
+         $ps["ik_secret_key"] = "";
+$ps["pay_name"] = "";
+$ps["pm_payee_account"] = "";
+$ps["pm_alter_pass"] = "";
+$ps["lr_acc"] = "";
+$ps["lr_security_word"] = "";
+$ps["min_payout_r"] = "10";
+$ps["min_payout_d"] = "10";
+$ps["addmail"] = "10";
+$ps["profile_add"] = 10;
+$ps["change_r"] = 10;
+$ps["change_d"] = 1;
+$ps["change_rating"] = 1;
+$ps["rating_ref"] = 5;
+$ps["add_square"] = 1;
+$ps["ref_p"] = 10;
+$ps["paginator"] = 40;
+$ps["admin_email"] = "support@mega-ogorod.com";
+$ps["live_cache"] = "240";
+$ps["square_rate"] = "1";
+$ps["ban468"] = "1";
+$ps["ban200"] = "1";
+$ps["cont"] = "300";
+$ps["corner"] = "100";
+$ps["auto_serf"] = "3";
+$system = array();
+$system["start"] = "30.08.2015";
+?>

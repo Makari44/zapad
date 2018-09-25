@@ -1,0 +1,30 @@
+#basic-modal-content {display:none;}
+#simplemodal-overlay {background-color:#000;}
+#simplemodal-container {color:#bbb; background-color:#e0e0e0; border:4px solid #444; padding:12px;}
+#simplemodal-container #basic-modal-content {padding:8px;}
+
+#simplemodal-container a.modalCloseImg {
+	background:url(/images/x.png) no-repeat; /* adjust url as required */
+	width:25px;
+	height:29px;
+	display:inline;
+	z-index:3200;
+	position:absolute;
+	top:-15px;
+	right:-18px;
+	cursor:pointer;
+}
+
+<!--[if lt IE 7]>
+<style type='text/css'>
+	#simplemodal-container a.modalCloseImg {
+		background:none;
+		right:-14px;
+		width:22px;
+		height:26px;
+		filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+			src='images/x.png', sizingMethod='scale'
+		);
+	}
+</style>
+<![endif]-->
